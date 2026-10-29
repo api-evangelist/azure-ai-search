@@ -64,5 +64,130 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Azure AI Search is a company surfaced via the API Evangelist harvest backlog (source: tag-qc) and added to the network as a stub for full-pipeline profiling.
-- https://azure.microsoft.com/products/ai-services/ai-search
+Azure AI Search is a cloud-based search-as-a-service offering from Microsoft Azure, providing powerful AI-driven indexing, semantic search, and customizable relevance tuning for developers and enterprises. It enables integration of advanced search capabilities into applications, supporting full-text, vector, and hybrid search scenarios, with built-in security, scaling, and monitoring features. This service is part of Azure AI Services, delivering intelligent information retrieval across structured and unstructured data.
+
+**Areas:** Artificial Intelligence · Search · Microsoft Azure · Cloud · Services
+
+## Azure AI Search on APIs.io
+
+Everything profiled for Azure AI Search is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/azure-ai-search/](https://apis.io/providers/azure-ai-search/)** — or go straight to one of the APIs or properties below.
+
+### APIs (7)
+
+- [Azure AI Search API](https://apis.io/apis/azure-ai-search/azure-ai-search-api-2/) — Azure AI Search REST API
+- [Azure AI Search Azure AI Search API](https://apis.io/apis/azure-ai-search/azure-ai-search-azure-ai-search-api-api/) — The Azure AI Search API API from Azure AI Search — 1 operation(s) for azure ai search api.
+- [Azure AI Search Indexes API](https://apis.io/apis/azure-ai-search/azure-ai-search-indexes-api/) — The Indexes API from Azure AI Search — 2 operation(s) for indexes.
+- [Azure AI Search Subscriptions API](https://apis.io/apis/azure-ai-search/azure-ai-search-subscriptions-api/) — The Subscriptions API from Azure AI Search — 2 operation(s) for subscriptions.
+- [Azure AI Search Swagger API](https://apis.io/apis/azure-ai-search/azure-ai-search-swagger-api/) — The Swagger API from Azure AI Search — 1 operation(s) for swagger.
+- [Azure AI Search Todoitems API](https://apis.io/apis/azure-ai-search/azure-ai-search-todoitems-api/) — The Todoitems API from Azure AI Search — 2 operation(s) for todoitems.
+- [Azure AI Search Weatherforecast API](https://apis.io/apis/azure-ai-search/azure-ai-search-weatherforecast-api/) — The Weatherforecast API from Azure AI Search — 1 operation(s) for weatherforecast.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetResponse](https://apis.io/schemas/azure-ai-search/azure-ai-search-get-response/)
+- [GetSwaggerV1SwaggerJsonResponse](https://apis.io/schemas/azure-ai-search/azure-ai-search-get-swagger-v1-swagger-json-response/)
+- [GetWeatherforecastResponse](https://apis.io/schemas/azure-ai-search/azure-ai-search-get-weatherforecast-response/)
+- [PatchTodoitemsIdRequest](https://apis.io/schemas/azure-ai-search/azure-ai-search-patch-todoitems-id-request/)
+- [PostTodoitemsRequest](https://apis.io/schemas/azure-ai-search/azure-ai-search-post-todoitems-request/)
+- [PutTodoitemsIdRequest](https://apis.io/schemas/azure-ai-search/azure-ai-search-put-todoitems-id-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Azure Ai Search Context](https://apis.io/jsonld/azure-ai-search/azure-ai-search-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Azure AI Search API Rules](https://apis.io/rules/azure-ai-search/azure-ai-search-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Azure Ai Search Authentication](https://apis.io/security/azure-ai-search/azure-ai-search-authentication/)
+- [Azure Ai Search Domain Security](https://apis.io/security/azure-ai-search/azure-ai-search-domain-security/)
+- [Azure Ai Search Vulnerability Disclosure](https://apis.io/security/azure-ai-search/azure-ai-search-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Azure Ai Search Plans Pricing](https://apis.io/plans/azure-ai-search/azure-ai-search-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://azure.microsoft.com/products/ai-services/ai-search)
+- [Documentation](https://learn.microsoft.com/en-us/azure/search/)
+- [Getting started](https://learn.microsoft.com/en-us/azure/search/search-get-started-text)
+- [API reference](https://learn.microsoft.com/en-us/rest/api/searchservice/)
+- [Pricing](https://azure.microsoft.com/en-us/pricing/details/search/)
+- [Support](https://support.microsoft.com/en-us)
+- [Changelog](https://developer.microsoft.com/en-us/changelog)
+- [Blog](https://azure.microsoft.com/en-us/blog/)
+- [Security](https://www.microsoft.com/security)
+- [Privacy policy](https://www.microsoft.com/privacy?icid=DSM_Footer_Company_Privacy)
+- [GitHub](https://github.com/community)
+
+## API Evangelist rating
+
+**Kin Score 36.5** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 27.2 |
+| Contract governance | 22.0 |
+| Operational transparency | 31.6 |
+| Developer ergonomics | 57.1 |
+| Access clarity | 21.1 |
+
+**Agent readiness 18.0** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/azure-ai-search/](https://apis.io/providers/azure-ai-search/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Azure AI Search: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/azure-ai-search/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
